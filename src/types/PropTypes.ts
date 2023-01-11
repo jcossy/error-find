@@ -1,6 +1,6 @@
 import { AnswerType } from "./AppTypes";
 import { IQuestion } from "./Dto";
-import { ResultsController } from "./Results";
+import { ResultsController } from "../components/Results";
 
 export type QuestionsProp = {
   questions: IQuestion[];

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { Prompt } from "./Prompt";
-import { AllRoundOfQuestions, QuestionsProp, RoundsOfResults } from "./PropTypes";
-import Questions from "./Questions";
+import { Prompt } from "./components/Prompt";
+import { AllRoundOfQuestions, QuestionsProp, RoundsOfResults } from "./types/PropTypes";
+import Questions from "./components/Questions";
 
-import { ResultsController } from "./Results";
+import { ResultsController } from "./components/Results";
 import { roundsOfResultsController, RoundsOfResultsView } from "./RoundsOfResults";
 
 let resultsController: ResultsController = new ResultsController();

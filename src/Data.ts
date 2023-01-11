@@ -1,5 +1,5 @@
-import { ActivityNum, ErrorFindData, IActivityTwo, IQuestion } from "./Dto";
-import { AllRoundOfQuestions } from "./PropTypes";
+import { ActivityNum, ErrorFindData, IActivityTwo, IQuestion } from "./types/Dto";
+import { AllRoundOfQuestions } from "./types/PropTypes";
 
 /**
  * Converts both activity one and activity two data into an AllRoundOfQuestions format.

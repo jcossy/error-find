@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { makeBoldStimulus } from "./Model";
-import { QuestionsProp } from "./PropTypes";
+import { makeBoldStimulus } from "../Model";
+import { QuestionsProp } from "../types/PropTypes";
 
 /**
  * Successively loads question views. For each question the resultsController is called to process results and sets up

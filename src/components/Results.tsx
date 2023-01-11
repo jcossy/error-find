@@ -1,5 +1,5 @@
-import { AnswerType } from "./AppTypes";
-import { ResultItem, RoundHeadingType, RoundOfResults } from "./PropTypes";
+import { AnswerType } from "../types/AppTypes";
+import { ResultItem, RoundHeadingType, RoundOfResults } from "../types/PropTypes";
 
 export class ResultsController {
   #results: ResultItem[] = [];

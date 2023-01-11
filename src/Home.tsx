@@ -1,8 +1,8 @@
 import { useState, MouseEvent } from "react";
-import { Buttons, initEnabledButtons } from "./Buttons";
+import { Buttons, initEnabledButtons } from "./components/Buttons";
 import { prepareRoundData } from "./Data";
-import { ActivityNum, ErrorFindData } from "./Dto";
-import { AllRoundOfQuestions } from "./PropTypes";
+import { ActivityNum, ErrorFindData } from "./types/Dto";
+import { AllRoundOfQuestions } from "./types/PropTypes";
 import { RoundsOfQuestions } from "./RoundsOfQuestions";
 
 /**
