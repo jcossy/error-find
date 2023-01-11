@@ -11,7 +11,7 @@ relevant activity button is highlighted.
 Simply click on an active activity button and start answering the questions!
 
 ## Live App
-A working version of the app may be found at ***************
+A working version of the app may be found at https://jcossy.github.io/error-find/
 
 # Getting Started with Create React App
 
