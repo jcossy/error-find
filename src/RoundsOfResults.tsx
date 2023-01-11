@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import App from "./App";
-import { RoundOfResults, RoundsOfResults } from "./PropTypes";
+import { RoundOfResults, RoundsOfResults } from "./types/PropTypes";
 
-import Results, { ResultsController } from "./Results";
+import Results, { ResultsController } from "./components/Results";
 
 const resultControllers: ResultsController[] = [];
 

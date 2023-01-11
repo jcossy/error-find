@@ -1,4 +1,4 @@
-import { RoundOfQuestions } from "./PropTypes";
+import { RoundOfQuestions } from "../types/PropTypes";
 
 const ACTIVITY_TWO = "ACTIVITY TWO";
 

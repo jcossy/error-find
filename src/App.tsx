@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useQuery } from "react-query";
-import { ErrorFindData } from "./Dto";
+import { ErrorFindData } from "./types/Dto";
 import Home from "./Home";
 import Validation, { ValidationStatus } from "./Validation";
 import "./error-find.css";

@@ -1,5 +1,5 @@
 import { MouseEvent } from "react";
-import { ActivityNum, ErrorFindData } from "./Dto";
+import { ActivityNum, ErrorFindData } from "../types/Dto";
 
 /**
  * Object for Active buttons. Buttons are disabled by default. disabled = true
@@ -16,7 +16,7 @@ const isDisabledActivity: { [key: string]: boolean } = {
  * Activates buttons based on information in errorFind data.
  * @param data - input data (e.g. from api)
  */
-export function initEnabledButtons(data: ErrorFindData){
+export function initEnabledButtons(data: ErrorFindData) {
   console.log("initialiseEnabledButtons");
   data.activities.forEach((activity) => {
     isDisabledActivity[activity.activity_name] = false;
@@ -48,7 +48,6 @@ type ButtonProp = {
  * @returns - view of buttons
  */
 export function Buttons(click: ActivityClick) {
-
   console.log("In Buttons");
   return (
     <>
