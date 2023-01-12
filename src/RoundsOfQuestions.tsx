@@ -36,8 +36,6 @@ export function RoundsOfQuestions({ allRounds }: AllRoundOfQuestions) {
   });
 
   const ALL_ROUNDS_END = allRounds.length - 1;
-  console.log("AllRoundsEnd: ", ALL_ROUNDS_END);
-  console.log("QuestionsResults", questionsAndResults);
 
   // Briefly display round prompt before starting round
   useEffect(() => {
@@ -50,13 +48,11 @@ export function RoundsOfQuestions({ allRounds }: AllRoundOfQuestions) {
   });
 
   function nextRound() {
-    console.log("In nextRound");
     const moreRounds = roundCount < ALL_ROUNDS_END;
     if (moreRounds) {
       storeResultsAndGetNextQuestions();
       showPrompt();
     } else {
-      console.log("In Else");
       finaliseState();
       isActivityOneShown(false);
       showResults();

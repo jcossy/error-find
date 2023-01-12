@@ -1,6 +1,6 @@
 {
   "proxy": "https://s3.eu-west-2.amazonaws.com",
-  "homepage": "https://cossycode.github.io/error-find",
+  "homepage": "https://jcossy.github.io/error-find",
   "name": "error-find",
   "version": "0.1.0",
   "private": true,

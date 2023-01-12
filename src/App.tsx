@@ -21,7 +21,6 @@ export default function App(): JSX.Element {
   });
 
   if (status === "success") {
-    console.log(data);
     validation.isErrorFindData(data.data);
     if (validation.validationStatus === "VALID") {
       return <Home {...data.data} />;
@@ -48,7 +47,6 @@ function Error({ status }: { status: ValidationStatus }) {
 }
 
 function getApiData() {
-  console.log("getting Data");
   return axios.get<ErrorFindData>(url, {
     headers: {
       Accept: "application/json",

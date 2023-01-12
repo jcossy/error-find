@@ -17,7 +17,6 @@ const isDisabledActivity: { [key: string]: boolean } = {
  * @param data - input data (e.g. from api)
  */
 export function initEnabledButtons(data: ErrorFindData) {
-  console.log("initialiseEnabledButtons");
   data.activities.forEach((activity) => {
     isDisabledActivity[activity.activity_name] = false;
   });
@@ -48,7 +47,6 @@ type ButtonProp = {
  * @returns - view of buttons
  */
 export function Buttons(click: ActivityClick) {
-  console.log("In Buttons");
   return (
     <>
       <div className="home-button-container">

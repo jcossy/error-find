@@ -61,7 +61,6 @@ export function RoundsOfResultsView({ ...rounds }: RoundsOfResults): JSX.Element
   const [displayed, isDisplayed] = useState(true);
 
   function handleBack() {
-    console.log("in handleback");
     roundsOfResultsController.clearAll();
     isDisplayed(false);
   }
